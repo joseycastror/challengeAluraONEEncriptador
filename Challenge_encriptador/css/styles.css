@@ -1,0 +1,89 @@
+html {
+    font-family: Verdana;
+    background-color: #1f1f2e;
+    color: #f2f2f2;
+    width: 100%;
+}
+
+header {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+#subheader {
+    font-size: 1rem;
+    color: #f2f2f2b7;
+    text-align: center;
+    margin: 2rem;
+}
+
+main {
+    display: flex;
+    /*align-items: center;*/
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#input-div, #output-div {
+    flex-basis: 45%;
+    /*margin: auto;*/
+    background-color: transparent;
+}
+
+textarea {
+    width: 95%;
+    height: 15rem;
+    background-color: transparent;
+    border: 0.2rem solid #666666;
+    border-radius: 0.5rem;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.15rem;
+    padding: 1rem;
+}
+textarea:hover {
+    border: 0.2rem solid #f2f2f2;
+}
+
+#output {
+    display: flex;
+    border: 0.2rem solid #f2f2f2b7;
+    color: #f2f2f2b7;
+}
+
+button {
+    background-color: #1f1f2e;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    border: 0.15rem solid #f2f2f2;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 15rem;
+}
+button:hover {
+    background-color: #f2f2f2;
+    color: #1f1f2e;
+}
+button:active {
+    background-color: #f2f2f2bd;
+    border: 0.15rem solid #f2f2f2;
+}
+
+#buttons, #copiar {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer {
+    display: block;
+    margin: 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
