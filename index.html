@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Encriptador | Desencriptador - Alura Challenge</title>
+    </head>
+    
+    <body>
+
+        <header id="header">
+            <img src="">
+            ENCRIPTADOR | DESENCRIPTADOR
+        </header>
+        <div id="subheader">¡Este encriptador no distingue mayúsculas, acentos ni caracteres especiales!</div>
+        <main>
+            <div id="input-div">
+                <textarea id="input" placeholder="Aquí va el mensaje a encriptar o desencriptar..."></textarea>
+                <div id="buttons">
+                    <button onclick="encriptar()">Encriptar</button>
+                    <button onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+                
+            <div id="output-div">
+                <textarea id="output" disabled="true">Aquí se muestra el resultado...</textarea>
+                <div id="copiar"><button onclick="copiar()">Copiar</button></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Challenge ONE G5 - Alura: Encriptador de texto </p>
+            <p>Realizado por: José Yair Castro Rojas</p>
+            <p>2023</p>
+        </footer>
+
+        <script src="js/EncrypterDecrypter.js"></script>
+    </body>
+
+</html>
